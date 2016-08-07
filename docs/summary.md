@@ -55,8 +55,12 @@
 - 更新后的系统都统一放在固定的/mnt/androidnewest目录下
 - 用户可以通过grub/uefi的启动菜单的"OPENTHOS Newest"选项进行选择 
 
+## 相关文档
+- [OTA app设计开发文档](https://github.com/openthos/appstore-ota-analysis/blob/master/OTA-analysis.md)
+- [OTA已有设计文档](https://github.com/openthos/appstore-ota-analysis/blob/master/Server/OTA.md)
+
 # 项目进展
 | 计划 | 完成 | 开始时间 | 结束时间 |其他
-|---|---|---|---|
+|---|---|---|---|---|
 | 实现newinstaller with OTA框架 |40%|2016-07-06|2016-08-01|肖络元
 | newinstaller with OTA改进 |60%|2016-08-02|~|陈渝
