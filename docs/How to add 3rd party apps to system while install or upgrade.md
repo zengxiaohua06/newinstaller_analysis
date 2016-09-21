@@ -11,9 +11,11 @@ creat a shell script /system/bin/install_apk.sh
   chmod 777 data/app/Twitter.apk
 ```
 modify init.android_x86_64.rc to add start service
-service install_apk /system/bin/install_apk.sh
-    class main
-    oneshot
+```sh
+  service install_apk /system/bin/install_apk.sh
+  class main
+  oneshot
+```
 
 # Method 2 within android
 
