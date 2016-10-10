@@ -64,21 +64,21 @@
   -  ~~"-2":系统更新失败.一般由上次启动的newinstaller设置,表示系统更新失败~~  
   
 
--~~倒数第二行内容:要下载镜像文件真实的md5值。当用户将镜像文件下载成功后，将用update文件中的
-- 镜像文件真实md5值与从本地获取下载后镜像文件的md5值进行校验：如果校验成功，提示镜像文件校
-- 验成功，显示安装更新系统的按钮。如果校验失败，提示镜像文件校验失败，自动删除update和系统
-- 镜像文件，退出程序~~
+-~~倒数第二行内容:要下载镜像文件真实的md5值。当用户将镜像文件下载成功后，将用update文件中的~~
+-~~镜像文件真实md5值与从本地获取下载后镜像文件的md5值进行校验：如果校验成功，提示镜像文件校~~
+-~~验成功，显示安装更新系统的按钮。如果校验失败，提示镜像文件校验失败，自动删除update和系统~~
+-~~镜像文件，退出程序~~
 
-- 倒数第二行内容:更新包名称
- 更新包具有版本号属性,所以需要首先更新版本文件;
- bootable/newinstaller/otoinit/version
- OpenThos V1.0
- Function:
- Bugfix:
- Cust:
- 更新包可以根据更新目标列表进行部分更新,而且更新包的制作是读取更新目标文件列表把相应的更新包打包进入;
- 你可以只更新kernel,或者之更新system.sfs文件等;
- bootable/newinstaller/otoinit/update.list
+- 倒数第二行内容:更新包名称  
+ 更新包具有版本号属性,所以需要首先更新版本文件;  
+ bootable/newinstaller/otoinit/version  
+ OpenThos V1.0  
+ Function:  
+ Bugfix:  
+ Cust:  
+ 更新包可以根据更新目标列表进行部分更新,而且更新包的制作是读取更新目标文件列表把相应的更新包打包进入;  
+ 你可以只更新kernel,或者之更新system.sfs文件等;  
+ bootable/newinstaller/otoinit/update.list  
 
 -~~倒数第三行内容:oto系统更新文件名字.此文件要求与update文件在一个固定目录下~~
 -~~但newinstaller完成更新后,会把update改名为update.old. ota app可根据此判断上次启动已经完成更新~~
